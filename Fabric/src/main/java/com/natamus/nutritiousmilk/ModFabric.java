@@ -1,6 +1,7 @@
 package com.natamus.nutritiousmilk;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveItemEvents;
 import com.natamus.nutritiousmilk.events.MilkEvent;
 import com.natamus.nutritiousmilk.util.Reference;
@@ -10,6 +11,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
