@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.nutritiousmilk.forge.mixin",
+  "package": "com.natamus.nutritiousmilk.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "nutritiousmilk_forge.refmap.json",
   "mixins": [
 
   ],
