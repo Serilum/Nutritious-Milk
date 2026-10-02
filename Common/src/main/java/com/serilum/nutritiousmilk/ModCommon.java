@@ -1,6 +1,6 @@
-package com.natamus.nutritiousmilk;
+package com.serilum.nutritiousmilk;
 
-import com.natamus.nutritiousmilk.config.ConfigHandler;
+import com.serilum.nutritiousmilk.config.ConfigHandler;
 
 public class ModCommon {
 

@@ -1,7 +1,7 @@
-package com.natamus.nutritiousmilk.config;
+package com.serilum.nutritiousmilk.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.nutritiousmilk.util.Reference;
+import com.serilum.nutritiousmilk.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
