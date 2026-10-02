@@ -1,12 +1,12 @@
-package com.natamus.nutritiousmilk.neoforge.events;
+package com.serilum.nutritiousmilk.forge.events;
 
-import com.natamus.nutritiousmilk.events.MilkEvent;
+import com.serilum.nutritiousmilk.events.MilkEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
-import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-public class NeoForgeMilkEvent {
+public class ForgeMilkEvent {
 	@SubscribeEvent
 	public static void onDrink(LivingEntityUseItemEvent.Finish e) {
 		Entity entity = e.getEntity();

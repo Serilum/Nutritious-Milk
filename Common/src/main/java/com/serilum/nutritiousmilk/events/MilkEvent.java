@@ -1,6 +1,6 @@
-package com.natamus.nutritiousmilk.events;
+package com.serilum.nutritiousmilk.events;
 
-import com.natamus.nutritiousmilk.config.ConfigHandler;
+import com.serilum.nutritiousmilk.config.ConfigHandler;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;

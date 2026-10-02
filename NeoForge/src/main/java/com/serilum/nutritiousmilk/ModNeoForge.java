@@ -1,10 +1,10 @@
-package com.natamus.nutritiousmilk;
+package com.serilum.nutritiousmilk;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.nutritiousmilk.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.nutritiousmilk.neoforge.events.NeoForgeMilkEvent;
-import com.natamus.nutritiousmilk.util.Reference;
+import com.serilum.nutritiousmilk.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.nutritiousmilk.neoforge.events.NeoForgeMilkEvent;
+import com.serilum.nutritiousmilk.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
