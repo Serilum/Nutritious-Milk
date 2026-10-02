@@ -1,10 +1,10 @@
-package com.natamus.nutritiousmilk;
+package com.serilum.nutritiousmilk;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveItemEvents;
-import com.natamus.nutritiousmilk.events.MilkEvent;
-import com.natamus.nutritiousmilk.util.Reference;
+import com.serilum.nutritiousmilk.events.MilkEvent;
+import com.serilum.nutritiousmilk.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
