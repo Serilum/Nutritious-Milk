@@ -1,13 +1,11 @@
-package com.natamus.nutritiousmilk;
+package com.serilum.nutritiousmilk;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.nutritiousmilk.forge.config.IntegrateForgeConfig;
-import com.natamus.nutritiousmilk.forge.events.ForgeMilkEvent;
-import com.natamus.nutritiousmilk.util.Reference;
-import net.minecraftforge.common.MinecraftForge;
+import com.serilum.nutritiousmilk.forge.config.IntegrateForgeConfig;
+import com.serilum.nutritiousmilk.forge.events.ForgeMilkEvent;
+import com.serilum.nutritiousmilk.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -32,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeMilkEvent.registerEventsInBus();
+		ForgeMilkEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

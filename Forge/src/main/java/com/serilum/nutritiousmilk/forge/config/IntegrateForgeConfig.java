@@ -1,7 +1,7 @@
-package com.natamus.nutritiousmilk.forge.config;
+package com.serilum.nutritiousmilk.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.nutritiousmilk.util.Reference;
+import com.serilum.nutritiousmilk.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

@@ -1,6 +1,6 @@
-package com.natamus.nutritiousmilk.neoforge.events;
+package com.serilum.nutritiousmilk.neoforge.events;
 
-import com.natamus.nutritiousmilk.events.MilkEvent;
+import com.serilum.nutritiousmilk.events.MilkEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
